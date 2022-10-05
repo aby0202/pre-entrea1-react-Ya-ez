@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import "./Navbar.css";
 import { navItems } from "../NavItems/NavItems";
 import Dropdown from "../Dropdown/Dropdown";
+import CartWidget from "../CartWidget/CartWidget";
 
 function Navbar() {
     const [dropdown, setDropdown] = useState(false);
@@ -33,8 +34,10 @@ function Navbar() {
                 <Link to={item.path}>{item.title}</Link>
             </li>
             );
+            
         })}
         </ul>
+        <CartWidget/>
     </nav>
     </>
     );
