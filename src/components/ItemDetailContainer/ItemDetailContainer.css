@@ -1,0 +1,11 @@
+.detail{
+    background-color: rgb(219, 215, 193);
+    width: 70%;
+    margin: auto;
+    margin-top: 45px;
+}
+
+.detailTitle{
+    font-family: 'Montserrat', sans-serif;
+    padding: 20px;
+}

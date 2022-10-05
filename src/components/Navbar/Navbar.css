@@ -1,10 +1,47 @@
-.navstyle{
-    background-color: rgb(166, 173, 214);
-    padding: 20px; 
-    font-size: 20px;
+
+.navbar {
+  height: 10vh;
+  background: rgba(175, 155, 174, 0.719);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.brand{
-    font-family: 'Libre Baskerville', serif;
-    font-size: 28px;
+.navbar-logo {
+  color: white;
+  text-decoration: none;
+  font-size: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: 'Libre Baskerville', serif;
+}
+
+
+.nav-items {
+  display: flex;
+  list-style: none;
+  text-align: center;
+  width: 70vw;
+  justify-content: flex-end;
+  margin-right: 2rem;
+}
+
+.nav-item {
+  display: flex;
+  align-items: center;
+  height: 10vh;
+}
+
+.nav-item a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.1rem;
+  margin-right: 2rem;
+  padding: 6px 16px;
+  border-radius: 5px;
+}
+
+.nav-item a:hover {
+  background: rgba(230, 224, 220, 0.534);
 }
