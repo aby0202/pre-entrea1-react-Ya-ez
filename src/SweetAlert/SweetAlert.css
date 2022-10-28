@@ -1,6 +1,6 @@
 .swal2-popup.swal2-toast {
-    background-color:rgb(128, 126, 112);
-    font-family: 'Montserrat', sans-serif;
+    background-color:rgb(128, 126, 112)!important;
+    font-family: 'Montserrat', sans-serif!important;
     font-weight: 600;
     margin-top: 12vh;
 }
