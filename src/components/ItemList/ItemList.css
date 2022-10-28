@@ -1,0 +1,11 @@
+.productsContainer{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3,  0.5fr);
+    grid-row-gap:20px;
+    grid-column-gap:75px;
+    justify-items: center;
+    justify-content: center;
+    padding: 20px;
+    margin-top: 4%;
+}

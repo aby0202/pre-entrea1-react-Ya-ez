@@ -1,29 +1,33 @@
 
 .navbar {
-  height: 10vh;
-  background: rgba(175, 155, 174, 0.719);
+  height: 13vh;
+  background: rgb(110, 114, 107);
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .navbar-logo {
-  color: white;
+  color: rgba(231, 231, 231, 0.692);
   text-decoration: none;
-  font-size: 28px;
+  font-size: 45px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  font-family: 'Libre Baskerville', serif;
+  font-family: 'Cormorant', serif;
+  padding-left: 5px;
 }
 
-
+.navbar-logo:hover{
+  color:rgb(173, 138, 114) ;
+}
 .nav-items {
   display: flex;
   list-style: none;
   text-align: center;
   width: 70vw;
   justify-content: flex-end;
+  padding-top: 20px;
   margin-right: 2rem;
 }
 
@@ -39,9 +43,12 @@
   font-size: 1.1rem;
   margin-right: 2rem;
   padding: 6px 16px;
+  font-family: 'Julius Sans One', sans-serif;
   border-radius: 5px;
+  color:aliceblue
 }
 
-.nav-item a:hover {
-  background: rgba(230, 224, 220, 0.534);
+.nav-item a:hover{
+  color: rgb(163, 145, 124);
 }
+

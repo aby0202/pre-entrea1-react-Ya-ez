@@ -1,0 +1,14 @@
+.Cart{
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.Cart:hover{
+    color: rgb(182, 136, 93);
+}
+
+.basketShopping{
+    padding-right: 10px;
+}

@@ -1,16 +1,33 @@
-h1{
-    font-family: 'Julius Sans One', sans-serif;
-}
+
 
 .contDetail{
-    background-color: rgba(250, 235, 215, 0.575);
+    background-color: rgba(250, 235, 215, 0.24);
 }
 
-.prodDetail{
-    background-color: rgba(0, 0, 0, 0.651);
-    margin-top: 25%;
-    color: rgba(250, 235, 215, 0.637);
+.prodDetail h3{
+    background-color: rgba(0, 0, 0, 0.185);
+    color: rgba(24, 21, 18, 0.747);
     font-family: 'Cardo', serif;
     padding: 40px;
-    line-height: 30px;
+    line-height: 40px;
+}
+
+.name{
+        font-family: 'Julius Sans One', sans-serif;
+        margin-top: 20px;
+}
+
+.Option{
+    text-decoration: none;
+    color: rgb(99, 61, 26);
+    font-family: 'Cardo', serif;
+    font-size: 22px;
+}
+
+.Option:hover{
+    color: rgb(145, 108, 28);
+}
+
+.ItemFooter{
+    margin-top: 40px;
 }

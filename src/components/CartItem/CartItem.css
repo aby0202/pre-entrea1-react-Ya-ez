@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+
+.cartItem{
+  margin: 15px ;
+  padding: 5px;
+  display: flex;
+  justify-content: space-between;
+  color:rgba(240, 248, 255, 0.747);
+  font-family: 'Cardo', serif;
+}
+
+.cartItem h4{
+  margin-top: 30px;
+}
+
+.button {
+  height: 40px;
+  background-color: rgba(100, 105, 109, 0.103);
+  border: rgba(100, 105, 109, 0.103);
+  margin-top: 28px;
+  border-radius: 50%;
+  color:rgba(240, 248, 255, 0.836);
+}
+
+button:hover{
+  color: rgba(100, 67, 30, 0.541);
+}

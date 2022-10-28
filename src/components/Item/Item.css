@@ -1,0 +1,28 @@
+.detailCard{
+    cursor: pointer;
+    color: rgb(180, 173, 134);
+    text-decoration: none;
+    font-family: 'Cormorant', serif;
+    font-size: 25px;
+}
+.detailCard:hover {
+    padding: 5px;
+    color: rgba(255, 255, 255, 0.699);
+    font-size: 30px;
+}
+
+.card{
+    background-color: rgb(78, 78, 76);
+}
+
+.card-title{
+    color:rgba(255, 255, 255, 0.678);
+    font-family: 'Cormorant', serif;
+    font-size: 28px;
+}
+
+.card-text{
+    color: #e9e6e0;
+    font-family: 'Cormorant', serif;
+    font-size: 20px;
+}
