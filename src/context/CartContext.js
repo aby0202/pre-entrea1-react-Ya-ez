@@ -4,13 +4,14 @@ export const CartContext = createContext()
 
 export const CartContextProvider = ({ children }) => {
     const [cart, setCart] = useState([])
+    const [totalQuantity, setTotalQuantity] = useState(0)
+    const [totalCart, setTotalCart] = useState(0)
     console.log(cart)
 
     const addItem = (productToAdd) => {
         if(!isInCart(productToAdd.id)) {
           setCart([...cart, productToAdd])
         } else {
-          console.log('ya esta agregado')
           const cartUpdated = cart.map(prod => {
             if(prod.id === productToAdd.id) {
               const productUpdated = {
@@ -37,6 +38,17 @@ export const CartContextProvider = ({ children }) => {
         setCart(cartWithoutItem)
       }
 
+      useEffect(() => {
+        const totalQuantity = getTotalQuantity()
+        setTotalQuantity(totalQuantity)
+      }, [cart])
+
+      useEffect(() => {
+      const totalCart= getTotalCart()
+      setTotalCart(totalCart)
+    }, [cart])
+
+
     const getTotalQuantity = () => {
         let totalQuantity = 0
 
@@ -53,7 +65,6 @@ export const CartContextProvider = ({ children }) => {
       return product?.quantity
     }
 
-    //aca agrego 
     const getTotalCart = ()=>{
         let totalCart = 0
 
@@ -68,10 +79,9 @@ export const CartContextProvider = ({ children }) => {
         setCart([])
     }
 
-    //aca finalizo
 
     return (
-        <CartContext.Provider value={{ cart, addItem, removeItem, getTotalQuantity, getProductQuantity, getTotalCart, clearCart }}>
+        <CartContext.Provider value={{ cart, addItem, removeItem, getTotalQuantity, getProductQuantity, totalCart, totalQuantity, clearCart }}>
             {children}
         </CartContext.Provider>
     )

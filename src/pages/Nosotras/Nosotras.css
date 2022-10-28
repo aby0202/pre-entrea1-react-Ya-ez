@@ -1,0 +1,25 @@
+.nosotras{
+    margin-top: 70px;
+}
+
+.nosotras h2{
+    font-family: 'Cormorant', serif;
+    font-size: 100px;
+    border-bottom: 2px solid black;
+}
+
+.nosotras p{
+    margin: 30px;
+    margin-left: 260px;
+    margin-right: 260px;
+    font-family: 'Julius Sans One', sans-serif;
+    line-height: 49px;
+    font-size: 20px;
+}
+
+.nosotras h3{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 90px;
+}

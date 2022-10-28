@@ -5,9 +5,10 @@ import NavbarInicio from './components/Navbar/Navbar';
 import ItemListContainer from './components/ItemListContainer.js/itemListContainer';
 import ItemDetailContainer from './components/ItemDetailContainer/ItemDetailContainer';
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
-
 import { CartContextProvider } from './context/CartContext'
 import Cart from './components/Cart/Cart';
+import Home from './pages/Home/Home';
+import Nosotras from './pages/Nosotras/Nosotras';
 
 function App() {
   return (
@@ -18,6 +19,8 @@ function App() {
   
       <NavbarInicio/>
       <Routes>
+        <Route path='/nosotras' element={<Nosotras/>}/>
+        <Route path='/Inicio' element={<Home/>}/>
         <Route path='/productos' element={<ItemListContainer/>}/>
         <Route path='/category/:categoryId' element={<ItemListContainer/>}/>
         <Route path='/detail/:productId' element={<ItemDetailContainer/>}/>

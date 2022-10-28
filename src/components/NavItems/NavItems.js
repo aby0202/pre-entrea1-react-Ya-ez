@@ -3,7 +3,7 @@ export const navItems = [
   {
     id: 1,
     title: "Inicio",
-    path: "./",
+    path: "./Inicio",
     cName: "nav-item",
   },
   {

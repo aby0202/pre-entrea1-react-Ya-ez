@@ -1,0 +1,26 @@
+.home{
+    margin:auto
+}
+
+.home h1{
+    font-family: 'Cormorant', serif;
+    font-size: 70px;
+}
+
+.home p{
+    margin: 30px;
+    font-family: 'Julius Sans One', sans-serif;
+    line-height: 30px;
+    font-size: 17px;
+}
+
+.btn{
+    font-family: 'Cormorant', serif;
+    font-size: 20px;
+    background-color: rgb(155, 175, 146);
+}
+
+.btn:hover{
+    color: aliceblue;
+    background-color: rgb(111, 143, 151);;
+}
