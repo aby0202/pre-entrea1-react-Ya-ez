@@ -27,7 +27,6 @@ function App() {
         <Route path='/category/:categoryId' element={<ItemListContainer/>}/>
         <Route path='/detail/:productId' element={<ItemDetailContainer/>}/>
         <Route path='/Cart' element = {<Cart/>}></Route>
-        <Route path='*' element={<h1>ME QUIERO IR A TWISTED WONDERLAND O AL GENSHIN</h1>}/>
       </Routes>
 
       </BrowserRouter>

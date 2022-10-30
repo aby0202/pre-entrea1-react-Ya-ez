@@ -11,7 +11,7 @@ function Navbar() {
     return (
     <>
     <nav className="navbar">
-        <Link to="/" className="navbar-logo">
+        <Link to="/Inicio" className="navbar-logo">
         Adolfina Decoracion
         </Link>
         <ul className="nav-items">
