@@ -9,6 +9,7 @@ import { CartContextProvider } from './context/CartContext'
 import Cart from './components/Cart/Cart';
 import Home from './pages/Home/Home';
 import Nosotras from './pages/Nosotras/Nosotras';
+import Checkout from './components/Checkout/Checkout'
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
   
       <NavbarInicio/>
       <Routes>
+        <Route path='/Checkout' element={<Checkout/>}/>
         <Route path='/nosotras' element={<Nosotras/>}/>
         <Route path='/Inicio' element={<Home/>}/>
         <Route path='/productos' element={<ItemListContainer/>}/>

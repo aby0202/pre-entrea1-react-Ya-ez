@@ -1,0 +1,19 @@
+.formulario{
+    margin: 5%;
+    font-family: 'Cormorant', serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+input{
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+input:hover{
+    background-color: rgba(240, 209, 199, 0.479);
+}
+
+.btnForm{
+    margin: 40px;
+}
