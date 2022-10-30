@@ -7,7 +7,7 @@ Proyecto final para el curso de React de Coder House. La aplicación permite con
 - ReactJs - FrontEnd
 - Firebase - BackEnd
 
-###Librerias
+##Librerias
 
 - [React-router-dom] - Navegacion
 - [SweetAlert2] - Alert
@@ -15,14 +15,14 @@ Proyecto final para el curso de React de Coder House. La aplicación permite con
 - [Formik] - Armado de formularios
 
 
-#### Available Scripts
+##Available Scripts
 
 In the project directory, you can run:
 
-#### `npm install`
+## `npm install`
 Installa los modulos de node y permite correr el servidor
 
-#### `npm start`
+## `npm start`
 Ejecuta el proyecto
 
 Runs the app in the development mode.\
