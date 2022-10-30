@@ -1,9 +1,14 @@
 
 import { Formik, Form, Field, ErrorMessage } from 'formik'
 import "./Form.css"
+import { alertConfirm } from '../../SweetAlert/SweetAlert'
 
 
 const Formulario = ({createOrder}) => {
+
+    const alert= () => {
+        alertConfirm(`La compra se  realizo correctamente`)
+    }
 
     const usuario = (valores, {resetForm}) => {
         console.log(valores);
@@ -92,7 +97,7 @@ const Formulario = ({createOrder}) => {
                     placeholder="1198569876" />
                     <ErrorMessage name="telefono" component={() => (<div className="error">{errors.telefono}</div>)}/>
                 </div>
-                <button type="submit" className="buttonCart btnForm">Listo!</button>
+                <button type="submit" className="buttonCart btnForm" onClick={alert}>Listo!</button>
             </Form>
                 )}
             </Formik>

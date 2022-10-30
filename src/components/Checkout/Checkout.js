@@ -17,7 +17,7 @@ const Checkout = () => {
 
     const createOrder = async(buyer) => {
         const objectOrder = {
-            buyer,
+        buyer,
         items:cart,
         total: totalCart
     }
